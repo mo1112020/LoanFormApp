@@ -1,0 +1,67 @@
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loan-form {
+    display: flex;
+    flex-direction: column;
+    background: rgb(51, 0, 170);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+    width: 50%;
+}
+
+label {
+    margin-top: 10px;
+}
+
+#modal {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.55);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#modal-content {
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+    color: green;
+}
+
+input, select {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+}
+
+#submit {
+    margin-top: 20px;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 7px;
+    background: rgb(211, 0, 127);
+    color: white;
+    cursor: pointer;
+}
+
+hr {
+    width: 100%;
+}
+
+.disabled {
+    background: gray !important;
+    cursor: not-allowed;
+}
